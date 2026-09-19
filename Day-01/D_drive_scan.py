@@ -32,7 +32,7 @@ def bytes_to_gb(size):
     return size / (1024 ** 3)
 
 
-drive_path = "C:\\"
+drive_path = "D:\\"
 
 results = []
 
