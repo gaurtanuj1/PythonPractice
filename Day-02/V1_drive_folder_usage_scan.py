@@ -28,6 +28,8 @@ def get_folder_size(folder_path):
 def bytes_to_gb(size):
     return size/(1024**3)
 
+#loop through the list of folders and get their size in GB ------------------------------------------ 
+
 for folder in folders_to_monitor:
     size_bytes = get_folder_size(folder)
     size_gb = bytes_to_gb(size_bytes)
