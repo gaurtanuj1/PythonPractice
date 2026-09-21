@@ -14,7 +14,7 @@ folders_to_monitor = [
 
 #fixed variable for threshold size in GB ----------------------------------------------------------- 
 
-threshold_gb = 0.5
+threshold_gb = 10
 
 ##Define a function to get the size of a folder in bytes -------------------------------------------
 
